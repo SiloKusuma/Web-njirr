@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAUZAN STORE</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      position: relative;
+      text-align: center;
+      color: white;
+      padding: 60px 20px 100px;
+      background: linear-gradient(27deg, #00c9ff, #92fe9d, #00c9ff);
+      background-size: 600% 600%;
+      animation: gradientMove 10s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header h1 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      margin: 20px 0 10px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #00b894;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+     .wave-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-moving {
+  position: relative;
+  display: block;
+  width: 200%;
+  height: 100px;
+  animation: waveSlide 10s linear infinite;
+}
+
+@keyframes waveSlide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+    .btn {
+      display: inline-block;
+      background-color: #00b894;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FAUZAN STORE</h1>
+  </header>
+
+  <div class="container">
+    <div class="section-title">VPS Murah</div>
+    <div class="card">
+      <h3>Basic VPS</h3>
+      <p>1GB RAM | 1 Core CPU | 20GB Disk | 1TB Bandwidth</p>
+      <p class="price">Rp 20.000,-</p>
+      <a href="wa.me/6285602307916" class="btn">Beli Sekarang</a>
+    </div>
+
+    <div class="card">
+      <h3>Standard VPS</h3>
+      <p>2GB RAM | 1 Core CPU | 50GB Disk | 2TB Bandwidth</p>
+      <p class="price">Rp 29.000,-</p>
+      <a href="wa.me/6285602307916" class="btn">Beli Sekarang</a>
+    </div>
+
+    <div class="section-title">Panel Boskuh</div>
+    <div class="card">
+      <h3>1GB Panel</h3>
+      <p>Garansi 5 Hari 1x Replace. Jadi Aman Boskuh</p>
+      <p class="price">Rp 500,-</p>
+      <a href="wa.me/6285602307916" class="btn">Beli Sekarang</a>
+    </div>
+    <div class="card">
+      <h3>Unli Panel</h3>
+      <p>Khusus Unli Akan Diberikan SC Bug Free</p>
+      <p class="price">Rp 6.000,-</p>
+      <a href="wa.me/6285602307916" class="btn">Beli Sekarang</a>
+    </div>
+      <div class="section-title">Topup Game Uyy</div>
+      <div class="card">
+      <h3>Free Fire | 120 DM</h3>
+      <p>Murah Lek, Proses Cepat</p>
+      <p class="price">Rp 20.000,-</p>
+      <a href="wa.me/6285602307916" class="btn">Beli Sekarang</a>
+  </div>
+
+        <div class="card">
+      <h3>Ragu-Ragu?, Kami Bisa Di Rekber</h3>
+      <p>Jadi Aman Kan Duit Mu, Tentu Lah Amanah Dan Terpercaya</p>
+  </div>
+  <footer>
+    Hubungi WhatsApp: 085602307916
+  </footer>
+</body>
+  </html>
